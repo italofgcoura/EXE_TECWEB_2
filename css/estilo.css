@@ -1,33 +1,49 @@
-
-.logo{
-	background-image: url(../../imagens/bg-3.jpg);
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: center;
-	float: left;
-	width: 100%;
-    height: 100px;
+#page {
+    padding: 10px;
 }
 
+.logo {
+    background-image: url(../../imagens/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 200px;
+    background: black;
+}
 
-.coluna8{
+.imagemLogo {
+    padding: 20px;
+}
+
+.imgCarousel {
+    width: 800;
+    height: 600;
+}
+
+.migalhas {
+    padding-top: 80px;
+}
+
+.coluna8 {
     background: blue;
 }
 
-.coluna4{
+.coluna4 {
     background: white;
 }
 
-.coluna42{
+.coluna42 {
     background: red;
 }
 
-
-.coluna43{
+.coluna43 {
     background: pink;
 }
 
-.coluna4 img{
+.coluna4 img {
     width: 150px;
     height: 150px;
     float: left;
@@ -38,10 +54,63 @@
     margin-top: 0px;
 }
 
-
-.coluna4 div{
+.coluna4 div {
     display: inline-block;
     position: relative;
     padding: 30px;
 }
 
+.menu {
+    float: right;
+    background: red;
+}
+
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+#pagina{ }
+
+#sidebar{ }
+
+.logo{
+	background-image: url(img/logo-presto-foods.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+	float: left;
+	width: 100%;
+	height: 100px;
+	
+}
+
+.menu{ float: left; width: 100%; margin: auto; margin-top: 20px; margin-bottom: 20px;  }
+
+#main{ }
+
+.galeria{ float: left; padding-bottom: 10px; padding-top: 10px;}
+
+.galeria h2 { font-size: 16px; }
+.galeria h2 a { color: #D22326;}
+
+.card{float: left; width:100%}
+
+.rodape{ background: #efefef; margin-top: 10px; padding-top: 10px; padding-bottom: 10px; text-align: center; float: left; font-size: 80%;}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
