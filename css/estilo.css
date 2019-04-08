@@ -3,44 +3,17 @@
 }
 
 .logo {
-    background-image: url(../../imagens/bg-3.jpg);
+    background-image: url(../imagens/logotipo.jpg);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 50%;
     background-position: center;
     float: left;
-    width: 100%;
-    height: 100px;
-    padding-bottom: 200px;
-    background: black;
-}
-
-.imagemLogo {
-    padding: 20px;
-}
-
-.imgCarousel {
-    width: 800;
-    height: 600;
+    width: 150px;
+    height: 150px;
 }
 
 .migalhas {
-    padding-top: 80px;
-}
-
-.coluna8 {
-    background: blue;
-}
-
-.coluna4 {
-    background: white;
-}
-
-.coluna42 {
-    background: red;
-}
-
-.coluna43 {
-    background: pink;
+    padding: 5px;
 }
 
 .coluna4 img {
@@ -61,43 +34,22 @@
 }
 
 .menu {
-    float: right;
-    background: red;
+    float: left;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-
-
-
-@charset "UTF-8";
-/* CSS Document */
-
-#pagina{ }
-
-#sidebar{ }
-
-.logo{
-	background-image: url(img/logo-presto-foods.png);
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: center;
-	float: left;
-	width: 100%;
-	height: 100px;
-	
+.rodape {
+    background: #efefef;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    float: left;
+    font-size: 80%;
 }
-
-.menu{ float: left; width: 100%; margin: auto; margin-top: 20px; margin-bottom: 20px;  }
-
-#main{ }
-
-.galeria{ float: left; padding-bottom: 10px; padding-top: 10px;}
-
-.galeria h2 { font-size: 16px; }
-.galeria h2 a { color: #D22326;}
-
-.card{float: left; width:100%}
-
-.rodape{ background: #efefef; margin-top: 10px; padding-top: 10px; padding-bottom: 10px; text-align: center; float: left; font-size: 80%;}
 
 .embed-container {
     position: relative;
