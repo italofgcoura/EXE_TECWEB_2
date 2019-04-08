@@ -21,6 +21,7 @@
     height: 150px;
     float: left;
     position: relative;
+    padding-right: 5px;
 }
 
 .coluna4 div {
@@ -29,11 +30,13 @@
     padding: 10px;
 }
 
+
+
 .menu {
     float: left;
     width: 100%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
