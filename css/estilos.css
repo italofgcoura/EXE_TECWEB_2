@@ -1,7 +1,75 @@
-.coluna1{
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+#page {
+    background: pink;
+}
+
+#cabecalho {
     background: red;
 }
 
-.coluna2{
-    background: black;
+#cabecalho img {
+    height: 150px;
+}
+
+.logo {
+    width: 200px;
+    float: right;
+    position: relative;
+    background: green;
+}
+
+.menu_h {
+    background: yellow;
+    padding-top: 50px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+}
+
+.menu_h ul li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+}
+
+.menu_h ul li a {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: orange;
+    display: block; 
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid #000;
+
+}
+
+.migalhasDePao {
+    background: violet;
+}
+
+#conteudo {
+    background: darkorange;
+}
+
+.carrosel {
+    background: turquoise
+}
+
+.notíciasColuna1 {}
+
+.notíciasColuna2 {}
+
+.aniversariantes {}
+
+#rodape {
+    background: blue;
 }

@@ -1,272 +1,79 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Aula Bootstrap</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
 
-  <link href="css/estilo.css" rel="stylesheet" type="text/css">
-  <script src="js/acoes.js"></script>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <div id="page">
+    <div id="page">
 
+        <div id="cabecalho">
+            <div class="row">
 
-    <div class="row">
+                <img class="logo col-md-2" src="imagens/logo.jpg">
 
-      <div class="logo col-6">
-      </div>
-
-      <div class="menu col-6">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="rh.html">RECURSOS HUMANOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="estoque.html">ESTOQUE</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
-
-    <div class="row">
-      <div class="migalhas menu col-md-12 col-sm-12">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Home</li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="conteudoPrincipal col-md-10">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="imgCarousel d-block w-90" src="imagens/carousel4.jpg" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-              <img class="imgCarousel d-block w-90" src="imagens/carousel5.jpg" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-              <img class="imgCarousel d-block w-90" src="imagens/carousel6.jpg" alt="Terceiro Slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-
-
-    <div class="row">
-      <div class="menu colunaNoticias coluna4 col-md-4 ">
-        <div id="titulo">
-          <h3>ÚLTIMAS NOTÍCIAS</h3>
-        </div>
-        <div>
-          <img src="imagens/bg-1.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-        <div>
-          <img src="imagens/bg-2.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-        <div>
-          <img src="imagens/bg-3.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-      </div>
-
-
-      <div class="menu colunaEsportes coluna4 col-md-4 ">
-        <div id="titulo">
-          <h3>ÚLTIMAS NOTÍCIAS</h3>
-        </div>
-        <div>
-          <img src="imagens/bg-1.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-        <div>
-          <img src="imagens/bg-2.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-        <div>
-          <img src="imagens/bg-3.jpg">
-          <p>exemplo de uma descriçã de uma notícia como exmeplo
-            exemplo de uma descriçã de uma notícia como exmeplo
-          </p>
-        </div>
-      </div>
-
-      <div class="menu coluna coluna col-md-4 ">
-        <div id="titulo">
-          <h3>ANIVERSARIANTES</h3>
-        </div>
-
-        <div>
-          <div class="card" style="width: 15rem; height: 15rem;">
-            <img src="imagens/aniversariante1.jpg" class="card-img-top" alt="Mario">
-            <div class="card-body">
-              <h7 class="card-title">Mario</h7>
-
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Mensagem
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">:)</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Escreva uma mensagem.
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      <button type="button" class="btn btn-primary">Salvar</button>
-                    </div>
-                  </div>
+                <div class="menu_h col-md-8">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Recursos Humanos</a></li>
+                        <li><a href="#">Estoque</a></li>
+                        <li><a href="#">Fale Connosco</a></li>
+                    </ul>
                 </div>
-              </div>
+
             </div>
-          </div>
+            <div class="row">
+                <div class="migalhasDePao col-md-4">migalhas de pão</div>
+            </div>
         </div>
 
 
-
-        <div>
-          <div class="card" style="width: 15rem; height: 15rem;">
-            <img src="imagens/aniversariante1.jpg" class="card-img-top" alt="Mario">
-            <div class="card-body">
-              <h7 class="card-title">Mario</h7>
-
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Mensagem
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">:)</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Escreva uma mensagem.
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      <button type="button" class="btn btn-primary">Salvar</button>
-                    </div>
-                  </div>
+        <div id="conteudo">
+            <div class="row">
+                <div class="carrosel col-md-12">
+                    carrosel
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
 
-        <div>
-          <div class="card" style="width: 15rem; height: 15rem;">
-            <img src="imagens/aniversariante1.jpg" class="card-img-top" alt="Mario">
-            <div class="card-body">
-              <h7 class="card-title">Mario</h7>
-
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Mensagem
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">:)</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Escreva uma mensagem.
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                      <button type="button" class="btn btn-primary">Salvar</button>
-                    </div>
-                  </div>
+            <div class="row">
+                <div class="notíciasColuna1 col-md-4">
+                    útlimas notícias 1ª coluna
                 </div>
-              </div>
+                <div class="notíciasColuna2 col-md-4">
+                    útlimas notícias 2ª coluna
+                </div>
+                <div class="aniversariantes col-md-4">
+                    aniversariantes
+                </div>
+
             </div>
-          </div>
         </div>
-      </div>
+        <div id="rodape">
+            rodape
+        </div>
     </div>
 
-  </div>
-  </div>
 
-  </div>
 
-  </div>
-  </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
