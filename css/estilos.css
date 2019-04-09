@@ -11,7 +11,9 @@ body {
 }
 
 #cabecalho {
+    margin:0px;
     background: red;
+    width: 800px;
 }
 
 #cabecalho img {
@@ -44,21 +46,19 @@ body {
 
 #conteudo {
     background: darkorange;
+    width: 800px;
 }
 
-.carrosel {
-    
-    background: turquoise;
+.carrosel{
+    background: blue;
     padding: 0px;
-    width: 800px;
+    width: 100%;
+      
 }
 
-.carrosel img{
-    
-    width: 800px;
-    
+.carousel-item img{
+    max-width: 800px;
 }
-
 
 .notíciasColuna1 {}
 
