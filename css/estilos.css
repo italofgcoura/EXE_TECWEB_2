@@ -1,5 +1,5 @@
-html {
-    height: 100%;
+body{
+margin: 0px;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 #page {
-    background: pink;
+        background: pink;
 }
 
 #cabecalho {
@@ -19,38 +19,24 @@ body {
 }
 
 .logo {
-    width: 200px;
-    float: right;
+    float: left;
     position: relative;
     background: green;
+    padding: 0px;
 }
 
 .menu_h {
     background: yellow;
-    padding-top: 50px;
-    margin: 0px;
-    width: 100%;
-    float: left;
+    
 }
 
 .menu_h ul li {
-    list-style: none;
-    display: inline-block;
-    width: 20%;
+    
 }
 
 .menu_h ul li a {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: orange;
-    display: block; 
-    text-align: center;
-    text-decoration: none;
-    color: aqua;
-    border: 1px solid #000;
-
-}
+       background: orange;
+    }
 
 .migalhasDePao {
     background: violet;
@@ -61,8 +47,18 @@ body {
 }
 
 .carrosel {
-    background: turquoise
+    
+    background: turquoise;
+    padding: 0px;
+    width: 800px;
 }
+
+.carrosel img{
+    
+    width: 800px;
+    
+}
+
 
 .notíciasColuna1 {}
 
