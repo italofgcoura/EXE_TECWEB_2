@@ -1,71 +1,82 @@
-body{
-margin: 0px;
-}
-
 body {
     margin: 0px;
 }
 
 #page {
-        background: pink;
+    /* background: pink; */
+    background: #e9e5e8;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#cabecalho {
-    margin:0px;
-    background: red;
-    width: 800px;
-}
+#cabecalho {}
 
-#cabecalho img {
-    height: 150px;
-}
+#cabecalho img {}
 
 .logo {
     float: left;
     position: relative;
-    background: green;
-    padding: 0px;
 }
 
-.menu_h {
-    background: yellow;
-    
+.menu_h {}
+
+.menu_h ul li {}
+
+.menu_h ul li a {}
+
+.migalhasDePao {}
+
+#conteudo {}
+
+.carrosel {
+    margin: auto;
+    padding: 10px;
 }
 
-.menu_h ul li {
-    
+.carousel-item img {
+    height: 300px;
+    padding: 5px;
 }
 
-.menu_h ul li a {
-       background: orange;
-    }
-
-.migalhasDePao {
-    background: violet;
+.noticias {
+    padding: 10px;
+    text-align: justify;
 }
 
-#conteudo {
-    background: darkorange;
-    width: 800px;
-}
-
-.carrosel{
-    background: blue;
-    padding: 0px;
-    width: 100%;
-      
-}
-
-.carousel-item img{
-    max-width: 800px;
+.noticias h5 {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .notíciasColuna1 {}
+
+.card {
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    margin: auto;
+}
+
+.card h6 {
+    text-transform: uppercase;
+}
 
 .notíciasColuna2 {}
 
 .aniversariantes {}
 
+.modal h5 {
+    text-transform: uppercase;
+}
+
 #rodape {
-    background: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #a5f1b1;
 }
