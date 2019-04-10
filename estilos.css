@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+}
+
+#page {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabecalho {}
+
+#cabecalho img {}
+
+.logo {
+    float: left;
+    position: relative;
+    padding: 0px;
+}
+
+.navbar {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.menu_h {}
+
+.menu_h ul li {}
+
+.menu_h ul li a {}
+
+.migalhasDePao {}
+
+#conteudo {}
+
+.carrosel {
+    margin: auto;
+    padding: 10px;
+}
+
+.carousel-item img {
+    padding: 5px;
+}
+
+.noticias {
+    padding: 10px;
+    text-align: justify;
+}
+
+.noticias h5 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.notíciasColuna1 {}
+
+.aniversario {
+    background: red;
+}
+
+.nomeAniversariante {
+    text-transform: uppercase;
+}
+
+.btn {
+    padding-top: 10px;
+    margin: 0px;
+    position: relative;
+    float: left;
+}
+
+.div-car-body {
+    padding: 0px;
+}
+
+.card-text {
+    position: relative;
+    float: right;
+}
+
+.aniversario h6 {
+    text-transform: uppercase;
+}
+
+.notíciasColuna2 {}
+
+.aniversariantes {}
+
+.aniversariantes img {
+    width: 50%;
+    height: 15%;
+    float: left;
+    padding-right: 10px;
+}
+
+.modal h5 {
+    text-transform: uppercase;
+}
+
+#rodape {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #f8f9fa!important;
+}
+
+#rodape p {
+    text-align: right;
+    margin: 2px solid red;
+}
