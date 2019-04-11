@@ -4,11 +4,11 @@ body {
 
 #page {
     padding: 10px;
-    font-family: cursive, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #cabecalho a {
-    font-family: cursive, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     text-align: center;
 }
@@ -61,9 +61,15 @@ body {
 
 .cachorros {
     padding: 0px;
-}
+    }
 
-.cachorros h6 {
+.cachorros h5{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    }
+
+    .cachorros h6 {
     text-transform: uppercase;
     color: green;
     text-align: center;
@@ -81,6 +87,12 @@ body {
     padding: 0px;
 }
 
+.gatos h5{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+
 .gatos h6 {
     text-transform: uppercase;
     color: blue;
@@ -95,9 +107,28 @@ body {
     text-align: center;
 }
 
-.aniversariantes {
-    padding: 0px;
+.aniversariantes img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
 }
+
+.aniversariantes h5{
+    text-transform: uppercase;
+    text-align: center;
+    color: orange;
+}
+
+/* .cardNiver{
+    margin: auto;
+    } */
+
+/* .nomeNiver{
+    position: relative;
+    float: right;
+    } */
 
 .aniversariantes h6 {
     text-transform: uppercase;
@@ -113,14 +144,17 @@ body {
     text-align: center;
 }
 
+.botaoMensagem{
+background:rgb(247, 196, 87);
+}
+
+.cardAniversariantes {
+    margin-top: 40px; 
+}
+
 .noticias {
     padding: 10px;
     text-align: justify;
-}
-
-.noticias h5 {
-    text-transform: uppercase;
-    text-align: center;
 }
 
 #rodape {
