@@ -28,6 +28,10 @@ body {
     padding-top: 16px;
 }
 
+.breadcrumb {
+    breadcrumb-divider: none;
+}
+
 .carrosel {
     margin: auto;
     /* padding: 100px; */
@@ -61,15 +65,15 @@ body {
 
 .cachorros {
     padding: 0px;
-    }
+}
 
-.cachorros h5{
+.cachorros h5 {
     text-transform: uppercase;
     text-align: center;
     color: blue;
-    }
+}
 
-    .cachorros h6 {
+.cachorros h6 {
     text-transform: uppercase;
     color: green;
     text-align: center;
@@ -87,7 +91,7 @@ body {
     padding: 0px;
 }
 
-.gatos h5{
+.gatos h5 {
     text-transform: uppercase;
     text-align: center;
     color: blue;
@@ -107,7 +111,7 @@ body {
     text-align: center;
 }
 
-.aniversariantes img{
+.aniversariantes img {
     width: 150px;
     height: 150px;
     display: block;
@@ -115,20 +119,11 @@ body {
     border-radius: 100%;
 }
 
-.aniversariantes h5{
+.aniversariantes h5 {
     text-transform: uppercase;
     text-align: center;
     color: orange;
 }
-
-/* .cardNiver{
-    margin: auto;
-    } */
-
-/* .nomeNiver{
-    position: relative;
-    float: right;
-    } */
 
 .aniversariantes h6 {
     text-transform: uppercase;
@@ -144,17 +139,25 @@ body {
     text-align: center;
 }
 
-.botaoMensagem{
-background:rgb(247, 196, 87);
+.botaoMensagem {
+    background: rgb(247, 196, 87);
+    display: block;
+    margin: auto;
 }
 
 .cardAniversariantes {
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
 .noticias {
     padding: 10px;
     text-align: justify;
+}
+
+hr {
+    border-color: #aaa;
+    box-sizing: border-box;
+    width: 90%;
 }
 
 #rodape {
