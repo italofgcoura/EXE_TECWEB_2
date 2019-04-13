@@ -178,40 +178,56 @@ hr {
     text-align: center;
     font-family: cursive, 'Times New Roman', Times, serif;
     background: #f8f9fa!important;
+    /* background: red; */
+    position: relative;
+    float:left;
 }
 
 #rodape p {
     text-align: right;
-}
+    }
 
 .rh1{
     width: 300px;
     height: 300px;
     background: pink;
+    position: relative;
+    float: left;
+    display: block;
+    margin:auto;
+   
 }
 
 .rh2{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: blue;
-}
+    display: block;
+    margin:auto;
+    }
 
 .rh3{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background: green;
+    display: block;
+    margin:auto;
 }
 
 .rh4{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background: red;
+    position: relative;
+    float: left;
 }
 
 .rh5{
-    width: 300px;
-    height: 300px;
-    background: black;
+    width: 150px;
+    height: 150px;
+    background: orange;
+    position: relative;
+    float: left;
 }
 
 .tabDocumentos{
