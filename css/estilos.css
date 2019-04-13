@@ -28,13 +28,12 @@ body {
     padding-top: 16px;
 }
 
-.breadcrumb {
-    breadcrumb-divider: none;
+.breadcrumb{
+    background: white;
 }
 
 .carrosel {
     margin: auto;
-    /* padding: 100px; */
     margin-bottom: 100px;
     margin-top: 100px;
 }
@@ -63,52 +62,67 @@ body {
     border-style: none;
 }
 
-.cachorros {
-    padding: 0px;
+.adocao {
+    padding: 20px;
 }
 
-.cachorros h5 {
+.adocao h5 {
     text-transform: uppercase;
     text-align: center;
-    color: blue;
+    color: green;
 }
 
-.cachorros h6 {
+.adocao h6 {
     text-transform: uppercase;
     color: green;
     text-align: center;
     font-size: 30px;
 }
 
-.cachorros p {
+.adocao p {
     text-transform: inherit;
     color: green;
     size: 15px;
     text-align: center;
 }
 
-.gatos {
-    padding: 0px;
+
+.noticias {
+    padding: 20px;
 }
 
-.gatos h5 {
+.noticias h5 {
     text-transform: uppercase;
     text-align: center;
     color: blue;
+    padding: 0px;
 }
 
-.gatos h6 {
+.noticias h6 {
     text-transform: uppercase;
     color: blue;
     text-align: center;
     font-size: 30px;
 }
 
-.gatos p {
-    text-transform: inherit;
+.noticias p {
+    /* text-transform: inherit; */
     color: blue;
     size: 15px;
     text-align: center;
+}
+
+.noticias a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.noticias a:hover{
+    color: red;
+}
+
+.aniversariantes{
+    padding: 20px;
 }
 
 .aniversariantes img {
@@ -129,7 +143,7 @@ body {
     text-transform: uppercase;
     color: orange;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .aniversariantes p {
@@ -149,10 +163,10 @@ body {
     margin-top: 40px;
 }
 
-.noticias {
+/* .noticias {
     padding: 10px;
     text-align: justify;
-}
+} */
 
 hr {
     border-color: #aaa;
@@ -163,7 +177,7 @@ hr {
 #rodape {
     text-align: center;
     font-family: cursive, 'Times New Roman', Times, serif;
-    background: #f1d6b3;
+    background: #f8f9fa!important;
 }
 
 #rodape p {
