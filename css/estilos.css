@@ -28,7 +28,7 @@ body {
     padding-top: 16px;
 }
 
-.breadcrumb{
+.breadcrumb {
     background: white;
 }
 
@@ -86,7 +86,6 @@ body {
     text-align: center;
 }
 
-
 .noticias {
     padding: 20px;
 }
@@ -112,16 +111,16 @@ body {
     text-align: center;
 }
 
-.noticias a{
+.noticias a {
     text-decoration: none;
     text-align: center;
 }
 
-.noticias a:hover{
+.noticias a:hover {
     color: red;
 }
 
-.aniversariantes{
+.aniversariantes {
     padding: 20px;
 }
 
@@ -180,56 +179,88 @@ hr {
     background: #f8f9fa!important;
     /* background: red; */
     position: relative;
-    float:left;
+    float: left;
 }
 
 #rodape p {
     text-align: right;
-    }
+}
 
-.rh1{
-    width: 300px;
-    height: 300px;
-    background: pink;
+.rh1 {
+    /* background: pink; */
     position: relative;
     float: left;
     display: block;
-    margin:auto;
-   
+    margin: auto;
 }
 
-.rh2{
-    width: 250px;
-    height: 250px;
-    background: blue;
+.rh2 {
+    /* background: blue; */
     display: block;
-    margin:auto;
-    }
-
-.rh3{
-    width: 200px;
-    height: 200px;
-    background: green;
-    display: block;
-    margin:auto;
+    margin: auto;
 }
 
-.rh4{
-    width: 150px;
-    height: 150px;
-    background: red;
+.rh3 {
+    /* background: green; */
+    display: block;
+    margin: auto;
     position: relative;
     float: left;
 }
 
-.rh5{
-    width: 150px;
-    height: 150px;
-    background: orange;
-    position: relative;
-    float: left;
+.rh4 {
+    /* background: red; */
+    /* position: relative;
+    float: left; */
 }
 
-.tabDocumentos{
+.rh5 {
+    /* background: orange; */
+    /* position: relative;
+    float: left; */
+}
+
+.btn-dark {
+    color: black;
+    background-color: white;
+    border-color: #343a40;
+}
+
+.tabDocumentos {
     margin: 20px;
+}
+
+.estoque div{
+    display: block;
+    margin: auto;
+}
+
+.estoque1 {
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+    position: relative;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+.estoque2 {
+    width: 100%;
+    height: 100%;
+    /* background: orange; */
+    position: relative;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+.estoque3 {
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    position: relative;
+    float: left;
+    display: block;   
+     margin: auto;
 }
